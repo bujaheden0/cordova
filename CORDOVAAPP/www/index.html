@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Search Places</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h2>CORDOVA APP</h2>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <input id="pac-input" class="controls" type="text" placeholder="Search Location">
+    <div id="map"></div>
+   
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtEMV7F8L8HP8osHmwJ_B2v5KNxmleMDQ&libraries=places&callback=initAutocomplete" async defer></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
